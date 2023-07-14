@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container  {
+    display: flex;
+    justify-content: center;
+    margin: 5rem auto;
+}
+
+
+.head {
+    padding: 1rem;
+}
+
+.input {
+    width: 100%;
+}
+
+#input-value {
+    width: 40rem;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    outline: none;
+    font-size: 1.1rem;
+}
+
+.input button {
+    width: 5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: cadetblue;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.todo-lists {
+    margin: 1rem auto;
+}
+
+table {
+   width: 40rem;
+    text-align: start;
+    text-align: center;
+}
+
+thead th {
+    font-size: 1rem;
+}
+
+.spaces {
+    padding: 1rem;
+}
+
+.wide {
+    width: 30rem;
+   
+}
+
+
+
+
+@media (max-width:768px) {
+    .container  {
+        margin: 5rem auto;
+    }
+
+    #input-value {
+        width: 30rem;
+    }
+    table {
+        width: 30rem;
+     }
+
+    .wide {
+        width: 30rem;
+       
+    }
+}
+
+
+@media (max-width:577px) {
+    .container  {
+        margin: 5rem auto;
+    }
+
+    #input-value {
+        width: 25rem;
+    }
+    .input button {
+        width: 3rem;
+        font-size: 1rem;
+    }
+    table {
+        width: 25rem;
+     }
+
+    .wide {
+        width: 25rem;
+    }
+}
+
+@media (max-width:469px) {
+    .container  {
+        margin: 5rem auto;
+    }
+    .input {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    #input-value {
+        width: 25rem;
+    }
+    .input button {
+        width: 100%;
+        font-size: 1rem;
+    }
+    table {
+        width: 25rem;
+     }
+
+    .wide {
+        width: 25rem;
+    }
+}
+
+@media (max-width:343px) {
+    .container  {
+        margin: 5rem auto;
+    }
+    .input {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    #input-value {
+        width: 90%;
+    }
+    .input button {
+        width: 90%;
+        font-size: 1rem;
+    }
+    table {
+        width: 90%;
+     }
+
+    .wide {
+        width: 90%;
+    }
+}
